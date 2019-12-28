@@ -61,7 +61,10 @@ h1 {
   .navbar {
     height: 200px;
     display: flex;
-    justify-content: center;
+  }
+
+  .nav-item {
+    margin-top: 30px;
   }
 
   .col-sm img {
