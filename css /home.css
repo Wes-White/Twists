@@ -70,10 +70,20 @@ h1 {
   .col-sm img {
     height: 150px;
   }
+  .carousel_container {
+    margin: 50px 0 20px 0;
+  }
+}
+.service_end {
+  height: 200px;
 }
 @media (max-width: 500px) {
   .masthead {
     margin-top: 80px;
+  }
+  .nav-item {
+    margin-top: 0;
+    margin-left: 20px;
   }
   .nav-link {
     margin: 0 auto;
@@ -85,9 +95,15 @@ h1 {
   .about_full {
     display: none;
   }
+  .carousel_container {
+    margin: 0 0 20px 0;
+  }
   .col-sm img {
     height: auto;
     padding: 5px;
+  }
+  .service_end {
+    height: 50px;
   }
 }
 
@@ -245,9 +261,7 @@ h1 {
     margin-bottom: 40px;
   }
 }
-.service_end {
-  height: 200px;
-}
+
 .d-block {
   margin-bottom: 25px;
 }
