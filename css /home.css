@@ -6,9 +6,11 @@ h1 {
   color: black;
   font-size: 65px;
 }
-
+.navbar-brand img {
+  height: 150px;
+}
 .navbar {
-  height: 135px;
+  height: 165px;
 }
 .nav-link {
   color: black;
@@ -54,7 +56,7 @@ h1 {
     padding-bottom: 40px;
   }
   .navbar {
-    height: 190px;
+    height: 200px;
   }
 
   .nav-link {
@@ -229,6 +231,10 @@ h1 {
 }
 .d-block {
   margin-bottom: 25px;
+}
+
+.col-sm img {
+  height: 300px;
 }
 .carousel_item resources/img {
   width: auto;
