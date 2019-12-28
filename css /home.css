@@ -1,0 +1,245 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 65px;
+}
+
+.navbar {
+  height: 135px;
+}
+.nav-link {
+  color: black;
+  font-size: 15px;
+}
+.masthead {
+  height: 100vh;
+  min-height: 400px;
+  background-image: url("/img/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider_bg_1 {
+  background-image: url(/img/walk.png);
+}
+
+.slider_area .single_slider .slider_text h3 {
+  color: #ffffff;
+  font-size: 80px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 900;
+  margin-bottom: 4px;
+  margin: 20px 0 16px 0;
+  line-height: 90px;
+}
+
+.about_img {
+  display: none;
+}
+
+.about_area {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .about_area {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .navbar {
+    height: 190px;
+  }
+  .nav-link {
+    margin-left: 55px;
+  }
+
+  .about_img {
+    display: block;
+    margin: 0 auto;
+  }
+  .about_full {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about_area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about_area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.about_area .about_info {
+  padding-left: 68px;
+  margin: 60px;
+}
+
+@media (max-width: 767px) {
+  .about_area .about_info {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about_area .about_info {
+    padding-left: 0;
+  }
+}
+
+.about_area .about_info p {
+  font-size: 16px;
+  line-height: 28px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 47px;
+}
+
+.service_area {
+  position: relative;
+  z-index: 0;
+  padding-top: 134px;
+}
+
+@media (max-width: 767px) {
+  .service_area {
+    padding-top: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area {
+    padding-top: 60px;
+  }
+}
+
+.service_area::after {
+  position: absolute;
+  content: "";
+  background-image: url(/img/about-banner.jpg);
+  height: 750px;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  z-index: -1;
+}
+
+.service_area .section_title2 i {
+  color: #fff;
+}
+
+.service_area .section_title2 h3 {
+  color: #fff;
+}
+
+.service_area .single_service {
+  padding: 20px 0px 20px 0px;
+  margin: 0 44px;
+  border-bottom: 1px solid #eceae5;
+}
+
+@media (max-width: 767px) {
+  .service_area .single_service {
+    display: block !important;
+    margin: 0 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .service_area .single_service {
+    display: flex !important;
+    margin: 0 30px;
+  }
+}
+
+.service_area .single_service .service_inner .thumb {
+  margin-right: 20px;
+  width: 58px;
+  height: 58px;
+}
+
+.service_area .single_service .service_inner .thumb img {
+  width: 100%;
+}
+
+.service_area .single_service .service_inner span {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Playfair Display", serif;
+}
+
+.service_area .single_service p {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: black;
+}
+
+.service_area .white_bg_pos {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+  margin-bottom: 14px;
+  padding: 40px 20px 0 40px;
+}
+
+.service_area .book_btn {
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+
+.boxed-btn {
+  border: 1px solid black;
+}
+
+@media (max-width: 767px) {
+  .service_area .book_btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area .book_btn {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+.service_end {
+  height: 200px;
+}
+.d-block {
+  margin-bottom: 25px;
+}
+.carousel_item img {
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}
+
+.footer_left {
+  border-right: 1px solid black;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+}
