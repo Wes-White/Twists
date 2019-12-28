@@ -56,8 +56,9 @@ h1 {
   .navbar {
     height: 190px;
   }
+
   .nav-link {
-    margin-left: 55px;
+    margin-left: 20px;
   }
 
   .about_img {
