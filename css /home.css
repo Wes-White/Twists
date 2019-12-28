@@ -57,10 +57,12 @@ h1 {
   }
   .navbar {
     height: 200px;
+    display: flex;
+    justify-content: center;
   }
 
   .nav-link {
-    margin-left: 30px;
+    margin-left: 90px;
   }
 
   .about_img {
@@ -69,6 +71,17 @@ h1 {
   }
   .about_full {
     display: none;
+  }
+  .col-sm img {
+    height: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .nav-link {
+    margin: 0 auto;
+  }
+  .col-sm img {
+    height: 220px;
   }
 }
 
@@ -233,9 +246,6 @@ h1 {
   margin-bottom: 25px;
 }
 
-.col-sm img {
-  height: 300px;
-}
 .carousel_item resources/img {
   width: auto;
   height: 225px;
