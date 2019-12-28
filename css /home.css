@@ -82,6 +82,7 @@ h1 {
   }
   .col-sm img {
     height: auto;
+    padding: 5px;
   }
 }
 
