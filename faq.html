@@ -142,23 +142,23 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form name="contact" netlify>
+      <form form name="contact" method="POST" data-netlify="true">
       <div class="modal-body mx-3 text-dark">
         <div class="md-form mb-5">
           <i class="fas fa-user prefix grey-text"></i>
-          <input type="text" id="form34" class="form-control validate">
+          <input type="text" id="form34" name='name' class="form-control validate">
           <label data-error="wrong" data-success="right" for="form34">Your name</label>
         </div>
 
         <div class="md-form mb-5 text-dark">
           <i class="fas fa-envelope prefix grey-text"></i>
-          <input type="email" id="form29" class="form-control validate">
+          <input type="email" id="form29" class="form-control validate" name='email' >
           <label data-error="wrong" data-success="right" for="form29">Your email</label>
         </div>
 
         <div class="md-form mb-5 text-dark">
           <i class="fas fa-tag prefix grey-text"></i>
-          <input type="text" id="form32" class="form-control validate">
+          <input type="text" id="form32" class="form-control validate" name='subject' >
           <label data-error="wrong" data-success="right" for="form32">Subject</label>
         </div>
 
@@ -170,7 +170,7 @@
 
       </div>
       <div class="modal-footer d-flex justify-content-center text-dark">
-        <button type="submit" class="btn btn-info">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+        <button type="submit" class="btn btn-info">Send </button>
       </div>
     </div>
 </form>
