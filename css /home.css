@@ -4,7 +4,7 @@
 
 h1 {
   color: black;
-  font-size: 65px;
+  font-size: 50px;
 }
 
 .navbar-brand img {
@@ -85,8 +85,15 @@ h1 {
 }
 .service_end {
   height: 200px;
+  margin-bottom: 25px;
 }
 @media (max-width: 500px) {
+  h1 {
+    font-size: 27px;
+  }
+  h3 {
+    font-size: 20px;
+  }
   .masthead {
     margin-top: 180px;
   }
