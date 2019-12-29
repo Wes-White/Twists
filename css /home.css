@@ -6,6 +6,7 @@ h1 {
   color: black;
   font-size: 65px;
 }
+
 .navbar-brand img {
   height: 150px;
 }
@@ -17,16 +18,17 @@ h1 {
   font-size: 15px;
 }
 .masthead {
-  height: 100vh;
-  min-height: 400px;
-  background-image: url("/resources/img/banner.png");
+  height: 600px;
+  min-height: 200px;
+  margin-top: 80px;
+  background-image: url("/resources/img/banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .slider_bg_1 {
-  background-image: url(/resources/img/walk.png);
+  background-image: url(/resources/img/walk.jpg);
 }
 
 .slider_area .single_slider .slider_text h3 {
@@ -49,10 +51,17 @@ h1 {
   padding-bottom: 150px;
   margin-bottom: 30px;
 }
+.col-sm img {
+  height: 300px;
+}
 
-@media (max-width: 820px) {
+@media (max-width: 834px) {
+  .navbar-brand img {
+    height: 140px;
+  }
   .masthead {
     margin-top: 150px;
+    height: 270px;
   }
   .about_area {
     padding-top: 40px;
@@ -79,15 +88,18 @@ h1 {
 }
 @media (max-width: 500px) {
   .masthead {
-    margin-top: 80px;
+    margin-top: 180px;
   }
+
+  .navbar {
+    height: 200px;
+  }
+
   .nav-item {
     margin-top: 0;
     margin-left: 30px;
   }
-  .nav-link {
-    margin: 0 auto;
-  }
+
   .about_img {
     display: block;
     margin: 0 auto;
