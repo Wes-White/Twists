@@ -174,63 +174,66 @@
         <!-- footer_area_start -->
 
         <footer id="sticky-footer" class="footer">
-            
-                  <div class="col-sm footer_right">
-                    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
+          <p>Have any questions? We would love to hear form you.<br>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Contact Us
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold text-dark">Write to us</h4>
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form form name="contact" method="POST" data-netlify="true">
-      <div class="modal-body mx-3 text-dark">
-        <div class="md-form mb-5">
-          <i class="fas fa-user prefix grey-text"></i>
-          <input type="text" id="form34" name='name' class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form34">Your name</label>
-        </div>
-
-        <div class="md-form mb-5 text-dark">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <input type="email" id="form29" class="form-control validate" name='email' >
-          <label data-error="wrong" data-success="right" for="form29">Your email</label>
-        </div>
-
-        <div class="md-form mb-5 text-dark">
-          <i class="fas fa-tag prefix grey-text"></i>
-          <input type="text" id="form32" class="form-control validate" name='subject' >
-          <label data-error="wrong" data-success="right" for="form32">Subject</label>
-        </div>
-
-        <div class="md-form text-dark ">
-          <i class="fas fa-pencil prefix grey-text"></i>
-          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-          <label data-error="wrong" data-success="right" for="form8">Your message</label>
-        </div>
-
+      <div class="modal-body">
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>   
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Your Phone Number: <input type="phone" name="phone" /></label>
+          </p>
+          <p>
+            How would you like to be contacted?
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="contactPref[]" id="text" value="text" checked>
+              <label class="form-check-label" for="text">
+                Text
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="contactPref[]" id="email" value="Email">
+              <label class="form-check-label" for="email">
+                Email
+              </label>
+            </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
       </div>
-      <div class="modal-footer d-flex justify-content-center text-dark">
-        <button type="submit" class="btn btn-info">Send </button>
-      </div>
+     
     </div>
-</form>
   </div>
 </div>
+            
+       
 
-<div class="text-center">
-  <p>Have any questions or details to share? We would love to hear from you!</p>
-  <a href="" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#modalContactForm">Contact Us</a>
-</div>
-                  </div>
-                  </div>
-                  <div class="copyright"><small>Copyright &copy; Twists & Knots</small></div>
               
               
             </div>
+            <div class="copyright"><small>Copyright &copy; Twists & Knots</small></div>
           </footer>
           
 
