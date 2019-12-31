@@ -18,7 +18,13 @@ h1 {
   font-size: 15px;
 }
 
-.banner-container {
+.faq-container {
+  margin-top: 230px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
   margin-top: 230px;
 }
 .ala_carte {
@@ -62,6 +68,14 @@ h1 {
   .carousel_container {
     margin: 50px 0 20px 0;
   }
+}
+
+.card-header {
+  background-color: F8F9FA;
+}
+.btn-link {
+  text-decoration: none;
+  color: black;
 }
 
 @media (max-width: 500px) {
@@ -145,6 +159,9 @@ h1 {
   width: auto;
   height: 225px;
   max-height: 225px;
+}
+.footer {
+  background-color: #b3e8cf;
 }
 
 .footer_left {
