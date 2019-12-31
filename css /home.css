@@ -18,10 +18,10 @@ h1 {
   font-size: 15px;
 }
 .masthead {
-  height: 600px;
+  height: 800px;
   min-height: 200px;
   margin-top: 80px;
-  background-image: url("/resources/img/banner.jpg");
+  background-image: url("/resources/img/banner-min.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
