@@ -130,11 +130,31 @@
             <label>Your Email: <input type="email" name="email" /></label>
           </p>
           <p>
-            <label>How would you like to be contacted: <select name="role[]" multiple>
-              <option value="leader">Email</option>
-              <option value="follower">Text</option>
-            </select></label>
+            <label>Your Phone Number: <input type="phone" name="phone" /></label>
           </p>
+          <p>
+            How would you like to be contacted?
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="contactPref[]" id="text" value="text" checked>
+              <label class="form-check-label" for="text">
+                Text
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="contactPref[]" id="email" value="Email">
+              <label class="form-check-label" for="email">
+                Email
+              </label>
+            </p>
+
+
+
+
+
+
+            
+
+
           <p>
             <label>Message: <textarea name="message"></textarea></label>
           </p>
