@@ -275,16 +275,16 @@
         <footer id="sticky-footer" class="footer">
           <p>Have any questions? We would love to hear form you.<br>
           <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModalCenter">
   Contact Us
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="contactModalCenter" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <h5 class="modal-title" id="contactModalLongTitle">Write to Us</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -292,10 +292,10 @@
       <div class="modal-body">
         <form name="contact" method="POST" data-netlify="true">
           <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
+            <label>Your Name: <br> <input type="text" name="name" /></label>  
           </p>
           <p>
-            <label>Your Email: <input type="email" name="email" /></label>
+            <label>Your Email:<br> <input type="email" name="email" /></label>
           </p>
           <p>
             <label>Your Phone Number: <input type="phone" name="phone" /></label>
@@ -315,10 +315,10 @@
               </label>
             </p>
           <p>
-            <label>Message: <textarea name="message"></textarea></label>
+            <label>Message: <br><textarea name="message"></textarea></label>
           </p>
           <p>
-            <button type="submit">Send</button>
+            <button type="submit" class="btn btn-primary">Send</button>
           </p>
         </form>
       </div>
@@ -326,22 +326,14 @@
     </div>
   </div>
 </div>
-            
-       
 
-              
-              
+ <!-- Modal End -->
+         
             </div>
             <div class="copyright"><small>Copyright &copy; Twists & Knots</small></div>
           </footer>
-          
-
-
-          
 
         <!-- footer_area_end -->
-   
-      <!-- container -->
     </section>
   </body>
 </html>

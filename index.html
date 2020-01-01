@@ -164,73 +164,70 @@
             </div>
         </div>
     
-        <!-- footer_area_start -->
+       <!-- footer_area_start -->
 
-        <footer id="sticky-footer" class="footer">
-            
-                  <div class="col-sm footer_right">
-                    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold text-dark">Write to us</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3 text-dark">
-        <div class="md-form mb-5">
-          <i class="fas fa-user prefix grey-text"></i>
-          <input type="text" id="form34" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form34">Your name</label>
-        </div>
+       <footer id="sticky-footer" class="footer">
+        <p>Have any questions? We would love to hear form you.<br>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModalCenter">
+Contact Us
+</button>
 
-        <div class="md-form mb-5 text-dark">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <input type="email" id="form29" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form29">Your email</label>
-        </div>
-
-        <div class="md-form mb-5 text-dark">
-          <i class="fas fa-tag prefix grey-text"></i>
-          <input type="text" id="form32" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form32">Subject</label>
-        </div>
-
-        <div class="md-form text-dark ">
-          <i class="fas fa-pencil prefix grey-text"></i>
-          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-          <label data-error="wrong" data-success="right" for="form8">Your message</label>
-        </div>
-
-      </div>
-      <div class="modal-footer d-flex justify-content-center text-dark">
-        <button class="btn btn-info">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
-      </div>
+<!-- Modal -->
+<div class="modal fade" id="contactModalCenter" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="contactModalLongTitle">Write to Us</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
+    <div class="modal-body">
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <br> <input type="text" name="name" /></label>  
+        </p>
+        <p>
+          <label>Your Email:<br> <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Phone Number: <input type="phone" name="phone" /></label>
+        </p>
+        <p>
+          How would you like to be contacted?
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="contactPref[]" id="text" value="text" checked>
+            <label class="form-check-label" for="text">
+              Text
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="contactPref[]" id="email" value="Email">
+            <label class="form-check-label" for="email">
+              Email
+            </label>
+          </p>
+        <p>
+          <label>Message: <br><textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </p>
+      </form>
+    </div>
+   
   </div>
 </div>
-
-<div class="text-center">
-  <p>Have any questions or details to share? We would love to hear from you!</p>
-  <a href="" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#modalContactForm">Contact Us</a>
 </div>
-                  </div>
-                  </div>
-                  <div class="copyright"><small>Copyright &copy; Twists & Knots</small></div>
-              
-              
-            </div>
-          </footer>
-          
 
+<!-- Modal End -->
+       
+          </div>
+          <div class="copyright"><small>Copyright &copy; Twists & Knots</small></div>
+        </footer>
 
-          
-
-        <!-- footer_area_end -->
-   
-      <!-- container -->
-    </section>
-  </body>
+      <!-- footer_area_end -->
+  </section>
+</body>
 </html>
