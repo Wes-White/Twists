@@ -142,7 +142,7 @@ h1 {
 }
 
 .service_end {
-  height: 200px;
+  height: 150px;
   margin-bottom: 25px;
 }
 
@@ -231,9 +231,12 @@ h1 {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1124px) {
   .masthead {
     height: 600px;
+  }
+  .service_end {
+    height: 150px;
   }
 }
 
@@ -286,9 +289,18 @@ h1 {
   .masthead {
     margin-top: 10px;
   }
+  .service_end {
+    height: 180px;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 667px) {
+  .service_end {
+    height: 250px;
+  }
+}
+
+@media (max-width: 568px) {
   h1 {
     font-size: 27px;
   }
@@ -328,9 +340,28 @@ h1 {
   .col-sm img {
     height: auto;
     padding: 5px;
-    margin-top: 30px;
   }
   .service_end {
-    height: 240px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 375px) {
+  .service_end {
+    height: 70px;
+  }
+}
+
+@media (max-width: 320px) {
+  .service_end {
+    height: 0px;
+  }
+
+  .navbar img {
+    height: 100px;
+    margin-left: 10px;
+  }
+  .nav-item {
+    margin: 0 0 0 10px;
   }
 }
