@@ -142,6 +142,11 @@ h1 {
   margin-bottom: 80px;
 }
 
+.service_end {
+  height: 200px;
+  margin-bottom: 25px;
+}
+
 .boxed-btn {
   border: 1px solid black;
 }
@@ -149,7 +154,7 @@ h1 {
   margin-bottom: 25px;
 }
 
-.carousel_item resources/img {
+.carousel_item img {
   width: auto;
   height: 225px;
   max-height: 225px;
@@ -206,11 +211,6 @@ h1 {
   }
 }
 
-.service_end {
-  height: 200px;
-  margin-bottom: 25px;
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
   .about_area {
     padding-top: 80px;
@@ -259,18 +259,18 @@ h1 {
     margin-top: 30px;
     margin-right: 20px;
   }
-}
-.service_end {
-  height: 300px;
-}
 
-.col-sm img {
-  height: 150px;
-}
-.carousel_container {
-  margin: 50px 0 20px 0;
-}
+  .service_end {
+    height: 300px;
+  }
 
+  .col-sm img {
+    height: 150px;
+  }
+  .carousel_container {
+    margin: 50px 0 20px 0;
+  }
+}
 @media (max-width: 500px) {
   h1 {
     font-size: 27px;
@@ -311,6 +311,7 @@ h1 {
   .col-sm img {
     height: auto;
     padding: 5px;
+    margin-top: 30px;
   }
   .service_end {
     height: 150px;
