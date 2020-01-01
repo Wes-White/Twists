@@ -36,28 +36,10 @@ h1 {
   margin-top: 20px;
 }
 
-.col-sm img {
-  height: 300px;
-}
-
-.about_area .about_info p {
-  font-size: 16px;
-  line-height: 28px;
-  font-size: 16px;
-  line-height: 28px;
-  margin-top: 0;
-  margin-bottom: 47px;
-}
-
 .d-block {
   margin-bottom: 25px;
 }
 
-.carousel_item resources/img {
-  width: auto;
-  height: 225px;
-  max-height: 225px;
-}
 .footer {
   background-color: #b3e8cf;
   text-align: center;
@@ -78,14 +60,6 @@ h1 {
   .navbar-brand img {
     height: 140px;
   }
-  .masthead {
-    margin-top: 150px;
-    height: 270px;
-  }
-  .about_area {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
   .navbar {
     height: 160px;
     display: flex;
@@ -93,27 +67,22 @@ h1 {
 
   .nav-item {
     margin-top: 30px;
-  }
-
-  .col-sm img {
-    height: 150px;
-  }
-  .carousel_container {
-    margin: 50px 0 20px 0;
+    margin-right: 20px;
   }
 }
 
-.card-header {
-  background-color: F8F9FA;
-}
-.btn-link {
-  text-decoration: none;
-  color: black;
+@media (max-width: 767px) {
+  .navbar {
+    height: 160px;
+  }
+  .nav-item {
+    margin: 0 auto;
+  }
 }
 
-@media (max-width: 500px) {
-  .masthead {
-    margin-top: 180px;
+@media (max-width: 568px) {
+  h1 {
+    font-size: 27px;
   }
 
   .navbar {
@@ -123,54 +92,21 @@ h1 {
   .nav-item {
     margin-top: 0;
     margin-left: 30px;
+    margin-right: 0px;
   }
 
-  .about_img {
-    display: block;
-    margin: 0 auto;
-  }
-  .about_full {
-    display: none;
-  }
-  .carousel_container {
-    margin: 0 0 20px 0;
-  }
-  .col-sm img {
-    height: auto;
-    padding: 5px;
-  }
-  .service_end {
-    height: 50px;
+  .banner-container {
+    margin-top: 230px;
+    text-align: center;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_area {
-    padding-top: 80px;
-    padding-bottom: 80px;
+@media (max-width: 320px) {
+  .navbar img {
+    height: 100px;
+    margin-left: 10px;
   }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .about_area {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-
-.about_area .about_info {
-  padding-left: 68px;
-  margin: 60px;
-}
-
-@media (max-width: 767px) {
-  .about_area .about_info {
-    padding: 10px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .about_area .about_info {
-    padding-left: 0;
+  .nav-item {
+    margin: 0 0 0 10px;
   }
 }
