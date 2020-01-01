@@ -162,6 +162,8 @@ h1 {
 .footer {
   background-color: #b3e8cf;
   text-align: center;
+  height: 200px;
+  padding: 15px;
 }
 
 .footer_left {

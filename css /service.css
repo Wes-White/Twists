@@ -40,10 +40,40 @@ h1 {
   height: 300px;
 }
 
-.about-footer {
-  border: 1px solid red;
-  height: 400px;
+.about_area .about_info p {
+  font-size: 16px;
+  line-height: 28px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 47px;
 }
+
+.d-block {
+  margin-bottom: 25px;
+}
+
+.carousel_item resources/img {
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}
+.footer {
+  background-color: #b3e8cf;
+  text-align: center;
+  height: 200px;
+  padding: 15px;
+}
+
+.footer_left {
+  border-right: 1px solid black;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+}
+
 @media (max-width: 834px) {
   .navbar-brand img {
     height: 140px;
@@ -143,36 +173,4 @@ h1 {
   .about_area .about_info {
     padding-left: 0;
   }
-}
-
-.about_area .about_info p {
-  font-size: 16px;
-  line-height: 28px;
-  font-size: 16px;
-  line-height: 28px;
-  margin-top: 0;
-  margin-bottom: 47px;
-}
-
-.d-block {
-  margin-bottom: 25px;
-}
-
-.carousel_item resources/img {
-  width: auto;
-  height: 225px;
-  max-height: 225px;
-}
-.footer {
-  background-color: #b3e8cf;
-  text-align: center;
-}
-
-.footer_left {
-  border-right: 1px solid black;
-}
-
-.copyright {
-  text-align: center;
-  margin-top: 30px;
 }
