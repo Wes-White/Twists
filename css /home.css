@@ -18,9 +18,9 @@ h1 {
   font-size: 15px;
 }
 .masthead {
-  height: 800px;
+  height: 100vh;
   min-height: 200px;
-  margin-top: 80px;
+
   background-image: url("/resources/img/banner-min.jpg");
   background-size: cover;
   background-position: center;
@@ -122,7 +122,6 @@ h1 {
 .service_area .single_service p {
   margin-bottom: 0;
   font-size: 18px;
-  font-family: "Playfair Display", serif;
   color: black;
 }
 
@@ -175,13 +174,6 @@ h1 {
   margin-top: 30px;
 }
 
-@media (max-width: 767px) {
-  .service_area .book_btn {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
   .service_area .book_btn {
     margin-top: 40px;
@@ -189,7 +181,7 @@ h1 {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 667px) {
   .service_area {
     padding-top: 60px;
   }
@@ -239,7 +231,11 @@ h1 {
   }
 }
 
-/* Iphone X/XS*/
+@media (max-width: 1024px) {
+  .masthead {
+    height: 600px;
+  }
+}
 
 @media (max-width: 834px) {
   .navbar-brand img {
@@ -247,7 +243,7 @@ h1 {
   }
   .masthead {
     margin-top: 0px;
-    height: 370px;
+    height: 420px;
   }
   .about_area {
     padding-top: 40px;
@@ -274,6 +270,24 @@ h1 {
     margin: 50px 0 20px 0;
   }
 }
+
+@media (max-width: 767px) {
+  .service_area .book_btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .navbar {
+    height: 160px;
+  }
+  .nav-item {
+    margin: 0 auto;
+  }
+
+  .masthead {
+    margin-top: 10px;
+  }
+}
+
 @media (max-width: 500px) {
   h1 {
     font-size: 27px;
@@ -282,7 +296,7 @@ h1 {
     font-size: 20px;
   }
   .masthead {
-    margin-top: 180px;
+    margin-top: 80px;
   }
 
   .navbar {
