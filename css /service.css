@@ -26,6 +26,21 @@ h1 {
 .about-container {
   margin-top: 230px;
 }
+
+.about-heading {
+  text-align: center;
+  margin: 30px;
+  font-size: 40px;
+}
+
+.aboutMe-right {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-me-img {
+  border-radius: 5px;
+}
 .ala_carte {
   text-align: center;
 }
@@ -98,6 +113,10 @@ h1 {
   .banner-container {
     margin-top: 230px;
     text-align: center;
+  }
+
+  .about-me-img {
+    width: 90%;
   }
 }
 
