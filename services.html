@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--IMPORTS-->
+
+      <!--IMPORTS-->
+      <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+   
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  
+    
+    <link href="css /service.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  
+      <!--END of IMPORTS-->
+    <title>Twists&Knots</title>
+   
+  </head>
+  <body>
+    <header>
+
+            <nav class="navbar fixed-top navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html"><img src="./resources/img/logo.png" class="logo_img" alt="logo"></a>
+                    <ul class="nav justify-content-center">
+                            
+                            <li class="nav-item">
+                              <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="faq.html">FAQ</a>
+                            </li>
+                            
+                           
+                          </ul>
+                  </nav>
+           
+
+    </header>
+    
+     <div class="banner-container">
+       <div class='banner-text'>
+         <p>Whether you need a blowout, makeup for a photoshoot or are looking for the best hair and makeup team on the Big Island to beautify your entire bridal party.
+          We have packages and a la carte services for you to choose from.
+          Our mobile hair and makeup team can meet you wherever you need on Oahu, Kauai, Maui and Big Island.
+          
+          </p>
+       
+
+
+     </div>
+     <img src="./resources/img/kiss-kiss.jpg" alt="Kiss_the_bride_image" class="kiss-kiss">
+     
+     
+
+
+        <!------Packages END -->
+
+        <!------ala carte Start -->
+     <h2 class="ala_carte">Bridal Party à la carte Services</h2>
+<div class="container">  
+     <div class="row">
+      <div class="col-sm">
+        <div class="card text-center">
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item border-0">Bridal hair: $160</li>
+              <li class="list-group-item border-0">Bridesmaid: $85</li>
+              <li class="list-group-item">Blow out and style: $60</li>
+              <li class="list-group-item">Updo: $85</li>
+              <li class="list-group-item">Flower girl: $40</li>
+              <li class="list-group-item">Add Extensions to any service for an additional $10</li>
+              <li class="list-group-item">Blow out: $50</li>
+            <li class="list-group-item">Blow out, set, and style: $55 </li>
+            <li class="list-group-item">Curls/waves: $55</li>
+            <li class="list-group-item">Half Up Do: $65</li>
+            <li class="list-group-item">Full up Do: $85</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+         <!--ala carte END -->
+
+        
+        <!-- footer_area_start -->
+
+       <footer id="sticky-footer" class="footer">
+        <p>Have any questions? We would love to hear form you.<br>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModalCenter">
+Contact Us
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="contactModalCenter" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="contactModalLongTitle">Write to Us</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <br> <input type="text" name="name" /></label>  
+        </p>
+        <p>
+          <label>Your Email:<br> <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Phone Number: <input type="phone" name="phone" /></label>
+        </p>
+        <p>
+          How would you like to be contacted?
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="contactPref[]" id="text" value="text" checked>
+            <label class="form-check-label" for="text">
+              Text
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="contactPref[]" id="email" value="Email">
+            <label class="form-check-label" for="email">
+              Email
+            </label>
+          </p>
+        <p>
+          <label>Message: <br><textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </p>
+      </form>
+    </div>
+   
+  </div>
+</div>
+</div>
+
+<!-- Modal End -->
+       
+          </div>
+          <div class="copyright"><small>Copyright &copy; Twists & Knots</small></div>
+        </footer>
+
+      <!-- footer_area_end -->
+  </section>
+</body>
+</html>
